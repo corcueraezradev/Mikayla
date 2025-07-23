@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Mikayla | Fitness Trainer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Inter font and general body defaults */
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800; /* Light background and dark text for contrast */
+        }
+        /* Ensure images are responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body class="font-inter">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-12 lg:px-24 flex justify-between items-center rounded-b-lg">
+        <div class="text-2xl font-bold text-gray-900">Anna | Fitness</div>
+        <nav class="hidden md:flex space-x-8">
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Charter</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Purchase</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Sell</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Build</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Manage</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Stories</a>
+            <a href="#" class="text-blue-600 border border-blue-600 px-4 py-2 rounded-full hover:bg-blue-600 hover:text-white transition duration-300">Enquire</a>
+        </nav>
+        <!-- Mobile menu button (simplified) -->
+        <button class="md:hidden text-gray-700 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-stone-900 to-indigo-700 text-white py-20 px-6 md:px-12 lg:px-24 text-center overflow-hidden rounded-b-xl shadow-lg min-h-screen flex items-center justify-center">
+        <!-- Background image placeholder - replace with actual image if available -->
+        <img src="woman.jpg" alt="Luxury Yacht Charter" class="absolute inset-0 w-full h-full object-cover opacity-30">
+        <div class="relative z-10">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">Fitness Trainer</h1>
+            <p class="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto">1-1 Personal Training or Group Training in Canberra</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <button class="bg-white text-blue-950 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">I'm Ready</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yachts for Charter Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-white rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h3 class="text-xl md:text-2xl font-semibold text-center mb-6 text-gray-700">Reclaim Your Fitness</h3>
+        <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Forget the fitness fads and endless online noise. It's time to focus on what truly matters: your body, your goals, and your lifestyle. Let's cut through the clutter and build a plan where your results are the only benchmark.</p>
+
+        <div class="text-center mt-12">
+            <button class="bg-stone-800 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Pulldown Hero Section -->
+    <section id="pulldown" class="relative bg-gradient-to-r from-stone-950 to-indigo-950 text-white py-20 px-6 md:px-12 lg:px-24 text-left overflow-hidden rounded-b-xl shadow-lg flex items-center justify-center h-[890px]">
+        <!-- Background image placeholder - replace with actual image if available -->
+        <img src="pulldown.png" alt="Luxury Yacht Charter" class="absolute inset-0 w-full h-full object-cover opacity-30">
+        <div class="relative z-10"> 
+            <h4 class="text-xl md:text-xl text-left mb-8 text-white">PERSONAL TRAINING</h4>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">Where do you<br/>want to be?</h1>
+            <p class="text-lg md:text-xl lg:text-xl mb-8 max-w-3xl mx-auto">Book your free consultation</p>
+            <div class="flex flex-col sm:flex-row justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                <button class="bg-transparent text-white px-8 py-3 rounded-full border-gray-200 border-2 shadow-lg hover:bg-gray-800 transition duration-300 transform hover:scale-105">Contact Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-gray-100 rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Why Us</h2>
+        <h3 class="text-xl md:text-2xl font-semibold text-center mb-8 text-gray-700">The Ultimate Experience</h3>
+        <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Chartering a yacht is the ultimate experience, and we know how to make the most of it. Whether we're securing exclusive access to an island paradise, throwing you the party of a lifetime, or having crew dress up as pirates for your kids, we'll make sure you and your guests are living life to the fullest every moment you're on board.</p>
+
+        <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
+            <button class="bg-stone-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Ready for the adventure of a lifetime?</button>
+            <button class="bg-transparent border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-600 hover:text-white transition duration-300 transform hover:scale-105">First time charter Guide</button>
+            <button class="bg-transparent border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-600 hover:text-white transition duration-300 transform hover:scale-105">Read charter FAQs</button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-xl shadow-md">
+                <div class="text-5xl font-extrabold text-blue-600 mb-4">1</div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-2">Exclusive Access</h4>
+                <p class="text-gray-600">From first choice of dates on board 1000 of the best yachts to the backing of on-the-ground specialists in every continent; Y.CO Clients have unparalleled access to the very best yachting has to offer.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-md">
+                <div class="text-5xl font-extrabold text-blue-600 mb-4">2</div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-2">EXPERTS IN ESCAPADE</h4>
+                <p class="text-gray-600">From bringing on board specialist instructors to arranging the celebration of a lifetime, our team combines expert destination knowledge with insider info on the very latest yachts to secure you the yacht charter of your dreams.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-md">
+                <div class="text-5xl font-extrabold text-blue-600 mb-4">3</div>
+                <h4 class="text-2xl font-bold text-gray-900 mb-2">Attention to Detail</h4>
+                <p class="text-gray-600">Enjoy effortless planning, with curated itineraries and yacht collections shared with you at the touch of a button.</p>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Plan my charter</button>
+        </div>
+    </section>
+
+    <!-- Yacht Charter Inspiration Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-white rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Yacht Charter Inspiration</h2>
+        <h3 class="text-xl md:text-2xl font-semibold text-center mb-8 text-gray-700">Best Holiday Ever</h3>
+        <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Whether you're planning a big Greek family adventure during school holidays, a culinary escape on Italy's Amalfi Coast or a voyage of discovery in Svalbard, we'll make sure your next yacht charter is the best one yet.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/300x200/dbeafe/1e40af?text=Summer+2025" alt="Summer Inspiration" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Everything That's Hot</h4>
+                <p class="text-gray-600 text-sm mb-4">Summer 2025 Charter Inspiration</p>
+                <button class="text-blue-600 font-semibold hover:underline">View Our Favourites</button>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/300x200/dbeafe/1e40af?text=Winter+Escape" alt="Winter Inspiration" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Banish the Winter Blues</h4>
+                <p class="text-gray-600 text-sm mb-4">Winter Yacht Charter Inspiration</p>
+                <button class="text-blue-600 font-semibold hover:underline">Explore</button>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/300x200/dbeafe/1e40af?text=Expedition" alt="Expedition Charter" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Explore Far-Flung Adventure</h4>
+                <p class="text-gray-600 text-sm mb-4">Guide to Expedition Yacht Charter</p>
+                <button class="text-blue-600 font-semibold hover:underline">Explore</button>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/300x200/dbeafe/1e40af?text=Family+Fun" alt="Family Charter" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">All Aboard</h4>
+                <p class="text-gray-600 text-sm mb-4">Yacht Charter with the Family</p>
+                <button class="text-blue-600 font-semibold hover:underline">Explore</button>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Discover all yachting destinations</button>
+        </div>
+    </section>
+
+    <!-- Winter 2025 Charter Spotlight Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-gray-100 rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Winter 2025 Charter Spotlight</h2>
+        <h3 class="text-xl md:text-2xl font-semibold text-center mb-8 text-gray-700">Experiences You Shouldn't Miss</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/400x250/93c5fd/1f2937?text=Dunia+Baru" alt="Dunia Baru Yacht" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Indonesian Immersion</h4>
+                <p class="text-gray-600 text-sm mb-4">Dunia Baru in Raja Ampat</p>
+                <button class="text-blue-600 font-semibold hover:underline">Explore Dunia Baru</button>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/400x250/93c5fd/1f2937?text=Arkadia" alt="Arkadia Yacht" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Ultimate Watersports</h4>
+                <p class="text-gray-600 text-sm mb-4">Arkadia in the Bahamas</p>
+                <button class="text-blue-600 font-semibold hover:underline">Discover Arkadia</button>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/400x250/93c5fd/1f2937?text=Windrose" alt="Windrose of Amsterdam" class="rounded-lg mb-4 w-full">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Adventures in the Caribbean</h4>
+                <p class="text-gray-600 text-sm mb-4">Windrose of Amsterdam in the Caribbean</p>
+                <button class="text-blue-600 font-semibold hover:underline">Explore Windrose of Amsterdam</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-blue-600 text-white text-center rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <blockquote class="text-2xl md:text-3xl font-light italic leading-relaxed max-w-4xl mx-auto">
+            “SUPERYACHTS ARE A WAY TO VIEW THE WORLD WITH NEW EYES AND RETURN TO LAND WITH MEMORIES THAT HAVE SHAPED YOU — AND THAT WILL STAY WITH YOU FOREVER.”
+            <footer class="mt-6 text-xl font-semibold not-italic">- Gary Wright, Y.CO Co-Founder and Chairman</footer>
+        </blockquote>
+    </section>
+
+    <!-- Itineraries & Destinations Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-white rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Itineraries & Destinations</h2>
+        <h3 class="text-xl md:text-2xl font-semibold mb-8 text-gray-700">Endless Exploration</h3>
+        <p class="text-gray-600 mb-12 max-w-3xl mx-auto">From pirate adventures to celebrity chefs, full-throttle fun to front-row seats to wonders of the world, our yacht charter itineraries unlock the kind of experiences that will stay with you for a lifetime. Discover where Yacht Charter could take you.</p>
+        <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Explore yacht charter destinations</button>
+    </section>
+
+    <!-- Our Charter Specialists Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-gray-100 rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Our Charter Specialists</h2>
+        <h3 class="text-xl md:text-2xl font-semibold text-center mb-8 text-gray-700">Meet the Team</h3>
+        <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">We think of ourselves not as brokers or consultants, but magicians. Able to pull something unforeseen out the hat, while still delivering on all the indulgences expected of a superyacht.</p>
+        <div class="text-center mb-12">
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">Speak to our team of Specialists</button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <!-- Team Member Card 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/150x150/cbd5e1/475569?text=Alisha" alt="Alisha McDonald" class="rounded-full w-32 h-32 object-cover mx-auto mb-4">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Alisha McDonald</h4>
+                <p class="text-gray-600 text-sm mb-4">Alisha's vast captain network and two-decade experience give her knowledge of the latest trends.</p>
+                <button class="text-blue-600 font-semibold hover:underline">Meet Alisha</button>
+            </div>
+            <!-- Team Member Card 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/150x150/cbd5e1/475569?text=Andrea" alt="Andrea Pothier" class="rounded-full w-32 h-32 object-cover mx-auto mb-4">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Andrea Pothier</h4>
+                <p class="text-gray-600 text-sm mb-4">A self-confessed foodie who's lived all over the world, Andrea loves finding new yachts and restaurants for clients.</p>
+                <button class="text-blue-600 font-semibold hover:underline">Read More</button>
+            </div>
+            <!-- Team Member Card 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/150x150/cbd5e1/475569?text=Annabel" alt="Annabel Gray" class="rounded-full w-32 h-32 object-cover mx-auto mb-4">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Annabel Gray</h4>
+                <p class="text-gray-600 text-sm mb-4">A background in events gives Annabel the logistics expertise to craft unforgettable celebrations and experiences.</p>
+                <button class="text-blue-600 font-semibold hover:underline">Meet Annabel</button>
+            </div>
+            <!-- Team Member Card 4 -->
+            <div class="bg-white p-6 rounded-xl shadow-md text-center">
+                <img src="https://placehold.co/150x150/cbd5e1/475569?text=Ariane" alt="Ariane Cerdan" class="rounded-full w-32 h-32 object-cover mx-auto mb-4">
+                <h4 class="text-xl font-bold text-gray-900 mb-2">Ariane Cerdan</h4>
+                <p class="text-gray-600 text-sm mb-4">Watersports enthusiast Ariane loves to share her knowledge of the best spots for surfing, kitesurfing and diving.</p>
+                <button class="text-blue-600 font-semibold hover:underline">Meet Ariane</button>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-white rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-900">How can we be of Service?</h2>
+
+        <div class="space-y-6 max-w-3xl mx-auto">
+            <!-- FAQ Item 1 -->
+            <div class="border border-gray-200 rounded-lg p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">How long is a yacht charter season?</h3>
+                <p class="text-gray-600">Yachting has two main seasons: summer (May to October) in the Mediterranean and winter (November to April) in the Caribbean, peaking at Christmas and New Year. Booking in the shoulder seasons offers crowd avoidance, flexible rates, and a wider selection. <a href="#" class="text-blue-600 hover:underline">Read our guide to yacht charter</a></p>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="border border-gray-200 rounded-lg p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Where can I charter a yacht?</h3>
+                <p class="text-gray-600">With access to a global fleet of yachts for charter all over the world, Y.CO offers diverse yachting destinations. In the summer, the Mediterranean is a top choice, while the Bahamas and Caribbean draw many clients during the winter months. <a href="#" class="text-blue-600 hover:underline">WHERE TO GO WHEN</a></p>
+            </div>
+            <!-- FAQ Item 3 -->
+            <div class="border border-gray-200 rounded-lg p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">How much does it cost to charter a yacht?</h3>
+                <p class="text-gray-600">Charter rates are typically quoted by the week and prices vary depending on the model of the yacht, size, year built, and onboard amenities. Most yachts have higher rates during peak season (July, August, Christmas and New Year) with lower rates throughout the rest of the year. <a href="#" class="text-blue-600 hover:underline">Browse our yachts for charter</a></p>
+            </div>
+            <!-- FAQ Item 4 -->
+            <div class="border border-gray-200 rounded-lg p-6">
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">How do I charter a yacht?</h3>
+                <p class="text-gray-600">If you're a complete beginner when it comes to yacht charter, don't worry. Our team of experts will guide you through the entire process. From choosing the perfect yacht and negotiating the best rates to fine-tuning your exclusive itinerary, we've got you covered. <a href="#" class="text-blue-600 hover:underline">Speak to our team of specialists</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stay in Touch Section (Newsletter) -->
+    <section class="py-16 px-6 md:px-12 lg:px-24 bg-blue-700 text-white rounded-xl shadow-lg mt-8 mx-4 md:mx-8 lg:mx-16 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Stay in touch</h2>
+        <p class="text-lg mb-8 max-w-2xl mx-auto">Be the first to hear about new-to-the-market yachts and exclusive opportunities.</p>
+        <form class="max-w-xl mx-auto">
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <input type="email" placeholder="Email Address" class="w-full sm:w-2/3 p-3 rounded-full bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300" required>
+                <button type="submit" class="w-full sm:w-1/3 bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Sign Up</button>
+            </div>
+            <div class="mt-6 text-sm">
+                <input type="checkbox" id="consent" name="consent" class="mr-2 rounded text-blue-600 focus:ring-blue-500" required>
+                <label for="consent">I confirm that I consent to being contacted by Y.CO in relation to the interests and details I have indicated above. For further details please see our <a href="#" class="underline hover:text-blue-200">Privacy Policy</a></label>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-16 px-6 md:px-12 lg:px-24 mt-8 rounded-t-xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
+            <div>
+                <h4 class="font-bold text-white mb-4">Charter</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white transition duration-200">All Yachts for Charter</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Guide to Yacht Charter</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Destinations</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Where to Go When</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Purchase</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yachts for Sale</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Guide to Buying a Yacht</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yacht Shows and Events</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yachts Sold by Y.CO</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Services</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yacht Sales</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yacht Management</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Yacht Charter Management</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Build & Refit</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">Destinations</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white transition duration-200">Mediterranean</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Caribbean</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Northern Europe</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Antarctica</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">South Pacific & Australasia</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-4">About</h4>
+                <ul>
+                    <li><a href="#" class="hover:text-white transition duration-200">Sustainability Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Contact</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Careers at Y.CO</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Cookie Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center border-t border-gray-700 pt-8">
+            <p class="text-lg font-bold text-white mb-4">Where you'll find us</p>
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm mb-6">
+                <span>MONACO — MC +377 93 50 12 12</span>
+                <span>LONDON — UK +44 20 7584 1801</span>
+                <span>FORT LAUDERDALE — US +1 954 278 3970</span>
+                <span>AUCKLAND — NZ +64 9 281 5133</span>
+            </div>
+            <p class="text-gray-400 mb-2">Contact us <a href="mailto:info@y.co" class="text-blue-400 hover:underline">info@y.co</a></p>
+            <p class="text-gray-500 text-sm">&copy; 2025 Y.CO. All rights reserved. By Rotate°</p>
+        </div>
+    </footer>
+</body>
+</html>
